@@ -2,14 +2,23 @@
   "name": "gen-art",
   "version": "1.0.0",
   "description": "",
-  "main": "sketch.js",
+  "main": "webgl.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blumaa/gen-art.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blumaa/gen-art/issues"
+  },
+  "homepage": "https://github.com/blumaa/gen-art#readme",
   "dependencies": {
-    "canvas-sketch": "^0.7.6"
+    "canvas-sketch": "^0.7.6",
+    "three": "^0.148.0"
   }
 }
